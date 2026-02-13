@@ -1,0 +1,104 @@
+.artistCardMainContainer{
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+.artistCard{
+    width: 20%;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: .5rem;
+    position: relative;
+}
+
+.artistCard:hover{
+    background-color: rgb(44, 43, 43);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.artistCard img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.textContainer {
+    width: 100%;
+    margin-bottom: 1rem;
+
+}
+
+.textContainer h1{
+    font-size: 1rem;
+    
+}
+
+.textContainer p{
+    font-size: .8rem;
+}
+
+.artistCard span{
+    background: rgb(59, 238, 59);
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+    display: none;
+}
+
+.artistCard:hover #playButton{
+    display: flex;
+}
+
+.artistCard span svg{
+    height: 70%;
+    width: 70%;
+
+}
+
+.artistCard {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 15%;
+  transition: transform 0.3s ease;
+  display: inline-block;
+  margin: 10px;
+}
+
+.artistCard:hover {
+  transform: scale(1.05);
+}
+
+.artistCard img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.heartOverlay {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  color: red;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.artistCard:hover .heartOverlay {
+  opacity: 1;
+}

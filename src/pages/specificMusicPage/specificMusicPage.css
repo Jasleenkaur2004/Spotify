@@ -1,0 +1,21 @@
+.page{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.nextpage img {
+    width:500px;
+    height: 500px;
+    margin: 40px;
+    
+}
+
+.nextPage2 {
+  margin-top: 200px;
+  margin-left: 50px;
+}
+
+.nextPage2 h1{
+    font-size: 4rem;
+}

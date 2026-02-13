@@ -1,0 +1,98 @@
+.sidebarMainContainer {
+    /* border: 2px solid green; */
+    width: 20% ;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom ,  #1b1b1b , #171717);
+    height: 98%;
+}
+
+.sidebarTopSection{
+    height: 15%;
+    /* border: 2px solid red; */
+    border-top-right-radius:10px ;
+    border-top-left-radius:10px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1rem;
+    box-shadow: 1px 1px 15px black;
+
+}
+
+.sidebarTopSection h1{
+    font-size: 1rem;
+
+}
+
+.sidebarTopSection p{
+    font-size: 1.5rem;
+   
+
+}
+
+.sidebarMiddleSection{
+    height: 38%;
+    /* border: 2px solid red; */
+    overflow-y: scroll;
+}
+
+.sidebarMiddleCard{
+    /* border: 2px solid red; */
+    margin: 1.5rem .5rem;
+    padding: 1rem ;
+    border-radius: 10px;
+    background-color: rgba(50, 50, 50, 0.76); 
+}
+
+.sidebarMiddleCard h1{
+    font-size: 1rem;
+    margin-bottom: .5rem ;
+}
+
+.sidebarMiddleCard p{
+    font-size: .8rem;
+    margin-bottom: 1rem ;
+}
+
+.sidebarMiddleCard button{
+    padding: .5rem 1rem ;
+    background-color: white;
+    color: #171717;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    font-size: .9rem;
+    font-weight: 700;
+}
+
+.sidebarBottomSectionTopSection{
+    padding: 1.5rem;
+    padding-bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sidebarBottomSectionTopSection p{
+    margin: .5rem;
+    font-size: .7rem;
+}
+
+.sidebarBottomSectionBottomSection p{
+    margin: .3rem;
+    margin-left: 1.7rem;
+    font-size: .9rem;
+    font-weight: 700;
+}
+
+.sidebarBottomSectionBottomSection button{
+    color: white;
+    border-radius: 50px ;
+    background-color: transparent;
+    padding: .5rem 1rem;
+    border: 1px solid white;
+    outline: none;
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+
+
+}

@@ -1,0 +1,68 @@
+.trendingCardMainContainer {
+    /* border: 2px solid blue; */
+    display: flex;
+    margin-top: 1rem;
+    height: 85%;
+    justify-content: space-between;
+}
+
+.cardContainer {
+    /* border: 2px solid red; */
+    width: 16%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.cardContainer:hover{
+    background-color: rgb(44, 43, 43);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.cardContainer img {
+    width: 94%;
+    height: 60%;
+    border-radius: 10px;
+}
+
+.cardTextContainer{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.cardTextContainer h2 {
+    font-size: 1.3rem;
+}
+
+.cardTextContainer p{
+    font-size: 0.8rem;
+}
+
+
+.cardContainer span{
+    background: rgb(59, 238, 59);
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 125px;
+    right: 15px;
+    display: none;
+}
+
+.cardContainer:hover #playButton{
+    display: flex;
+}
+
+.cardContainer span svg{
+    height: 70%;
+    width: 70%;
+
+}
+

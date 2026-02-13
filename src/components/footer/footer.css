@@ -1,0 +1,29 @@
+
+.footerSectionMainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px; /* Adds space between icons */
+  padding: 20px;
+   background-image: linear-gradient(to bottom , rgba(46, 46, 46, 0.836) , #242424 , #242424);
+}
+
+.footerSectionMainContainer a {
+  margin: 0 10px;
+  transition: transform 0.3s ease;
+}
+
+.footerSectionMainContainer a:hover {
+  transform: scale(1.1);
+}
+
+.footerSectionMainContainer a {
+  margin: 0 10px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.footerSectionMainContainer a:hover {
+  transform: scale(1.2);
+  filter: drop-shadow(0 0 6px #fff);
+}
+
