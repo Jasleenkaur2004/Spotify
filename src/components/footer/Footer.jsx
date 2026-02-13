@@ -16,6 +16,7 @@ const Footer = () => {
       {/* Snapchat Icon */}
       <a href={snapchatUrl} target="_blank" rel="noopener noreferrer">
         <FaSnapchatGhost size={30} style={{ color: '#FFFC00', cursor: 'pointer' }} />
+        <p>Jasleen kaur </p>
       </a>
     </div>
   );
